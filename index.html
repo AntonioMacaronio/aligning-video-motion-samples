@@ -55,7 +55,7 @@ Anthony Zhang &middot; M.S. thesis, Electrical Engineering and Computer Sciences
 <p>Samples from the final model, a HunyuanVideo&nbsp;1.5 video diffusion transformer extended with a motion stream and trained
 with joint finetuning, a text curriculum and geometric post-training. Each row is one clip, sampled once per task with the
 clip's fixed seed (50 Euler steps; text guidance 6 for the video and 2 for the motion).
-<b>Joint generation</b> produces the video and the motion from the first frame, the first pose and the caption;
+<b>Joint generation</b> produces the video and the motion from the first frame, the first pose and the text prompt;
 <b>video-conditioned motion</b> is given the recorded video and generates the motion;
 <b>motion-conditioned video</b> is given the recorded motion and generates the video.
 Below them, the joint and motion-conditioned videos are sampled again from the same seed with a <b>negative prompt</b>
